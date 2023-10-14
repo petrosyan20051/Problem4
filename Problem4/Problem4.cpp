@@ -22,7 +22,7 @@ int main()
 	while (temp != 8) // элементы masa
 	{
 		masa[temp] = a_l + rand() % (a_r - a_l + 1);
-		cout << "masa[" << temp << "] = " << masa[temp] << endl; 
+		//cout << "masa[" << temp << "] = " << masa[temp] << endl; 
 		temp += 1;
 	}
 	temp = 0;
@@ -30,7 +30,7 @@ int main()
 	while (temp != 8) // элементы masb
 	{
 		masb[temp] = b_l + rand() % (b_r - b_l + 1);
-		cout << "masb[" << temp << "] = " << masb[temp] << endl;
+		//cout << "masb[" << temp << "] = " << masb[temp] << endl;
 		temp += 1;
 	}
 	temp = 0;

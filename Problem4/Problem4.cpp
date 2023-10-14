@@ -49,7 +49,7 @@ int main()
 	{
 
 		f = masa[temp] / 1.0 / s1 + s2 / 1.0 / masb[temp]; // вычисляем значение выражение
-		cout << "Si = " << setprecision(6) << f << endl;
+		cout << 'S' << temp + 1 << " = " << setprecision(6) << f << endl;
 	}
 	
 	_getch();
